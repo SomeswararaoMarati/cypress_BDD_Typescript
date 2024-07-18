@@ -1,0 +1,27 @@
+{
+  "include": ["cypress.config.ts", "cypress/**/*.ts","./cypress/support/index.d.ts"],
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2020", "ES2021.String"],
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    // "moduleResolution": "node",
+    "module": "nodenext",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "target": "ES2019",
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "paths": {
+      "~/*": ["./cypress/*"]
+    },
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true
+  }
+}
