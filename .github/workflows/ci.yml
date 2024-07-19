@@ -38,8 +38,8 @@ jobs:
         run: npm install
 
 
-      # Run Node.js tests
-      - name: Run Node.js tests
-        run: 
+    # Run Cypress tests
+      - name: Run Cypress tests
+        run: |
           cd ..
           npx cypress run
