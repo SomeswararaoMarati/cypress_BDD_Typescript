@@ -41,5 +41,4 @@ jobs:
     # Run Cypress tests
       - name: Run Cypress tests
         run: |
-          cd ..
           npx cypress run
