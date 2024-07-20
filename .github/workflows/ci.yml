@@ -1,3 +1,4 @@
+
 name: CI Pipeline
 
 on:
@@ -37,7 +38,7 @@ jobs:
         run: npm install
 
 
-      # Run Node.js tests
-      - name: Run Node.js tests
+    # Run Cypress tests
+      - name: Run Cypress tests
         run: |
           npx cypress run
