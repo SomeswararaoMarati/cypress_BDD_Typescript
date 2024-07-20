@@ -86,7 +86,6 @@ tsconfig.tsbuildinfo
 cypress/downloads
 cypress/report
 cypress/screenshots
-cypress/config/*
 ./package-lock
 .cache
 .npm

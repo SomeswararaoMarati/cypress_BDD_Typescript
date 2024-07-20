@@ -1,0 +1,24 @@
+{
+  "url": "https://develop.app.pa.dev.paymerang.com/",
+  "platform": "dev",
+  "PMG_CLIENT_1":{
+    "client_user": {
+      "email": "paymerangautopa+clientAuto1@gmail.com",
+      "password": "Paymerang123#"
+    },
+    "client_admin": {
+      "email": "paymerangautopa+adminAuto1@gmail.com",
+      "password": "Paymerang12#"
+    }
+  },
+  "PMG_CLIENT_2":{   
+    "client_user": {
+      "email": "paymerangautopa+ClientAuto2@gmail.com",
+      "password": "Paymerang123#"
+    },
+    "client_admin": {
+      "email": "paymerangautopa+AdminAuto2@gmail.com",
+      "password": "Paymerang123#"
+    }
+  }
+}
